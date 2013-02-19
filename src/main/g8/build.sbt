@@ -10,7 +10,7 @@ showSuccess  := true
 
 showTiming   := true
 
-libraryDependencies += "org.scalatest" % "scalatest_2.10.0-RC5" % "2.0.M5-B1" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "1.9.1" % "test"
 
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.0.9"
 

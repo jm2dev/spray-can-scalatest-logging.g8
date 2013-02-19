@@ -2,4 +2,7 @@ target/
 # emacs ensime
 .ensime
 .ensime_lucene/
+# intellij idea
+.idea/
+.idea_modules/
 

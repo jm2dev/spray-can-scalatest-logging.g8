@@ -4,6 +4,6 @@ This is a [[https://github.com/n8han/giter8][giter8]] template for removing the 
 
 - `main` and `test` source directories and stubs
 - [[http://www.scalatest.org/][scalatest]]
-- SBT simple confguration for `0.12.2`, scala `2.10.0` as default, and `scalatest` dependencies
-- project `name`, `organization`, `version` and `scalaVersion` customizable as variables
+- SBT simple confguration for `0.13`, scala `2.10.X` as default, `logback` and `scalatest` dependencies
+- project `name`, `organization`, `version` ,` scalaVersion`  and dependencies versions are customizable as variables
 - everything in your project's base package imported automatically in repl sessions

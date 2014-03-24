@@ -12,13 +12,13 @@ class MyServiceSpec extends WordSpec with MustMatchers with ScalatestRouteTest w
 
     "return a greeting for GET requests to the root path" in {
       Get() ~> myRoute ~> check {
-        responseAs[String] must contain("Say hello")
+        responseAs[String] must include("Say hello")
       }
     }
 
     "leave GET requests to other paths unhandled" in {
       Get("/kermit") ~> myRoute ~> check {
-        handled must be(False)
+        handled must be(false)
       }
     }
 

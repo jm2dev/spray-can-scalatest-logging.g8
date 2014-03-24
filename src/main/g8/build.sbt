@@ -33,4 +33,6 @@ packSettings
 
 packMain := Map("$name$" -> "$organization$.$name;format="lower,word"$.Boot")
 
+Revolver.settings
+
 initialCommands := "import $organization$.$name;format="lower,word"$._"

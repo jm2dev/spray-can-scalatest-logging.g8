@@ -13,8 +13,8 @@ showTiming   := true
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
 libraryDependencies ++= {
-  val akkaV = "$akkaVersion"
-  val sprayV = "$sprayVersion"
+  val akkaV = "$akkaVersion$"
+  val sprayV = "$sprayVersion$"
   Seq(
     "io.spray"            %   "spray-can"     % sprayV withSources() withJavadoc(),
     "io.spray"            %   "spray-routing" % sprayV withSources() withJavadoc(),

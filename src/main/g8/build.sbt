@@ -29,4 +29,8 @@ libraryDependencies ++= {
   )
 }
 
+packSettings
+
+packMain := Map("$name$" -> "$organization$.$name;format="lower,word"$.Boot")
+
 initialCommands := "import $organization$.$name;format="lower,word"$._"

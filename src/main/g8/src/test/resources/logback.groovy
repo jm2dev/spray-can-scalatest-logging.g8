@@ -17,7 +17,7 @@ import ch.qos.logback.core.FileAppender
 import static ch.qos.logback.classic.Level.DEBUG
 
 appender("FILE", FileAppender) {
-  file = "$name$.log"
+  file = "$name$-test.log"
   encoder(PatternLayoutEncoder) {
     pattern = "%date %level [%thread] %logger{10} [%file:%line] %msg%n"
   }

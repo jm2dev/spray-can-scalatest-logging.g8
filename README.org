@@ -4,8 +4,10 @@ This is a [[https://github.com/n8han/giter8][giter8]] template for removing the 
 
 It is a variation from [[https://github.com/spray/spray-template/tree/on_spray-can_1.3][spray-can-1.3]], using scalatest and logback groovy configuration.
 
-- `main` and `test` source directories and stubs
-- [[http://www.scalatest.org/][scalatest]]
-- SBT simple confguration for `0.13`, scala `2.10.X` as default, `logback` and `scalatest` dependencies
-- project `name`, `organization`, `version` ,` scalaVersion`  and dependencies versions are customizable as variables
 - everything in your project's base package imported automatically in repl sessions
+
+* Usage
+
+#+begin_src bash
+g8 jm2dev/spray-can-scalatest-logging.g8
+#+end_src

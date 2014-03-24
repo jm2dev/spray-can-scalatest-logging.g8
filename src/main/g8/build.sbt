@@ -29,7 +29,4 @@ libraryDependencies ++= {
   )
 }
 
-Revolver.settings
-
 initialCommands := "import $organization$.$name;format="lower,word"$._"
-
